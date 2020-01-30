@@ -50,7 +50,7 @@ module.exports = {
   entry: './index.js',
   output: {
     filename: filename('js'),
-    path: path.resolve(__dirname, 'public')
+    path: path.resolve(__dirname, 'build')
   },
   optimization: optimization(),
   devServer: {
@@ -70,7 +70,7 @@ module.exports = {
     new CopyPlugin([
       {
         from: path.resolve(__dirname, './db/db.json'),
-        to: path.resolve(__dirname, './public/db')
+        to: path.resolve(__dirname, './build/db')
       }
     ])
   ],
