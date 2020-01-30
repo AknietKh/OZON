@@ -5,7 +5,6 @@ import {toggleCheckbox} from './modules/toggleCheckbox';
 import {toggleCart} from './modules/toggleCart';
 import {addCart} from './modules/addCart';
 import {actionPage} from './modules/actionPage';
-// import {backInitialState} from './modules/backInitialState';
 import './style/style.css';
 
 getData().then((data) => {
@@ -15,5 +14,4 @@ getData().then((data) => {
   toggleCart();
   addCart();
   actionPage();
-  // backInitialState();
 });
