@@ -2,14 +2,11 @@ body {
   background: #f5f5f5;
 }
 
-.sass {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  width: 100px;
-  height: 100px;
-  opacity: 50%;
-  background-color: #001a34;
+button {
+  border: 1px solid #005bff;
+}
+button:focus {
+  border: 1px solid #005bff;
 }
 
 .btn {
