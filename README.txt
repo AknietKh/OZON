@@ -1,10 +1,17 @@
 Клон магазина Ozon.
 
 Просмотр по ссылке:
-https://codepen.io/Akniet/project/editor/Devvex
+https://aknietkh.github.io/OZON/
 
 Реализовано:
 Добавление товаров в корзину
 Поиск
 Фильтр по цене и "Акции"
 Получение товаров из json и отображение их на странице
+
+Доступные команды:
+npm install - установить необходимые зависимости, если у вас их нет
+npm start - запуск проекта с помощью webpack-dev-server
+npm dev - developer сборка
+npm build - production сборка
+npm deploy - развернуть проект на github pages
